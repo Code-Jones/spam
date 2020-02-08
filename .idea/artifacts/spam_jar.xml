@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="spam:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/spam_jar</output-path>
+    <root id="archive" name="spam.jar">
+      <element id="module-output" name="spam" />
+      <element id="archive" name="archive.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
